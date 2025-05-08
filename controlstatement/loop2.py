@@ -136,16 +136,13 @@
 # print(total)
 
 # Q.N 10 => total even numbers 
-total=0
-for x in range(1,51):
-    total+=x
-    if x % 2 ==0:
-        print(x)
+# total=0
+# for x in range(1,51):
+#     total+=x
+#     if x % 2 ==0:
+#         print(x)
 
     
-
-
-
 
 
 
@@ -172,6 +169,11 @@ for x in range(1,51):
 #         break
 #     print(i)
 
+# for x in range(1,11):
+#     if x==5 or x==7:
+#        continue
+#     print(x)
+
  ##Note: the loop skips when condition meet true for i==3
 
 #  3. Continue statement => skips the current iteration and moves to the next one.
@@ -180,3 +182,114 @@ for x in range(1,51):
 #     if i== 4:
 #         continue
 #     print(i)
+
+# print("============Student Result=============")
+# num =int(input("Enter number of students: "))
+# students_marks=[]
+# sid=1
+# while sid<=num:
+#     print(f"=========Student ID: {sid}===========")
+#     nep =int(input("Enter Nepali marks: "))
+#     eng =int(input("Enter English marks: "))
+#     math =int(input("Enter Math marks: "))
+#     sci =int(input("Enter Science marks: "))
+#     soc =int(input("Enter Social marks: "))
+#     total = nep + eng + math + sci + soc
+#     students_marks.append(total)
+#     sid+=1
+
+# print("Sid\t Total Mark \tPercentage\t Grade")
+# student_id=1
+# for total in students_marks:
+#     per=total/5
+#     grade=""
+#     if per>=90:
+#         grade="A+"
+#     elif per>=80:
+#         grade="A"
+#     elif per>=70:
+#         grade="B+"
+#     elif per>=60:
+#         grade="B"
+#     elif per>=50:
+#         grade="C+"
+#     elif per>=40:
+#         grade="C"
+#     else:
+#         grade="F"
+#     print(f"{student_id}\t {total} \t\t{per:.2f}\t\t{grade}")
+#     student_id+=1
+
+
+# print("==========Student Result==========")
+# print(int(input("Enter number of sutdents: ")))
+
+# students=[]
+# sid=1
+# print(f"========Student ID:{sid}=========")
+# student_name=int(input("Enter sutdent name:"))
+# nep=int(input("Enter nepali marks: "))
+# eng=int(input("Enter english marks: "))
+# math=int(input("Enter math marks: "))
+# sci=int(input("Enter science marks: "))
+# soc=int(input("Enter social marks: "))
+# total=nep+eng+math+sci+soc
+# sid+=1
+
+# # print("sid\t total mark\t percentage\t grade")
+
+# for student in students:
+#     per=total/5
+#     grade=""
+#     if per>=90:
+#         grade="A+"
+#     elif per>=80:
+#         grade="A"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# product_list=[
+#     {
+#         "product_id": 1,
+#         "product_name": "Laptop",
+#         "price": 50000,
+#         "quantity": 10
+#     },
+#     {
+#         "product_id": 2,
+#         "product_name": "Mobile",
+#         "price": 20000,
+#         "quantity": 20
+#     },
+#     {
+#         "product_id": 3,
+#         "product_name": "Tablet",
+#         "price": 15000,
+#         "quantity": 15
+#     }
+
+# ]
+# print("==========Welcome to hamro bazar=========")
+# print("1.Laptop 2.Mobile 3.Tablet")
+# product_name=[]
+# price=0
+# quantity=0
+# product=int(input("Enter your choice of product:"))
+
+# while quantity<=product:
+#     laptop=int(input("Enter laptop quantity:"))
+#     mobile=int(input("Enter mobile quantity"))
+
+
